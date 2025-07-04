@@ -1,0 +1,69 @@
+{
+  "customer_journey_steps": {
+    "process_flow": [
+      "Generate A Solar Estimate",
+      "Consult with a Solar Specialist",
+      "Receive a Solar Proposal",
+      "Confirmatory Site Survey and Contract Signing",
+      "Installation and Commissioning of Solar Panels",
+      "Start Generating Solar Power",
+      "Post-Installation Maintenance and Support"
+    ],
+    "required_information": [
+      "Roof size",
+      "Electricity usage",
+      "Metre configuration",
+      "Energy usage",
+      "Building layout",
+      "Property details",
+      "Roof type"
+    ],
+    "wait_times": [
+      "Instant solar quote with solar calculator",
+      "Sales specialists will reach out after solar estimate",
+      "Customised solar panel proposal in your email inbox",
+      "On-site installation is typically completed within 3 to 5 days",
+      "Installation and Testing of Solar Panels typically within 1-3 months",
+      "Inquiries will be addressed within 3 to 5 business days"
+    ],
+    "human_touchpoints": [
+      "Consult with a Solar Specialist",
+      "Online advisory call with sales specialist",
+      "Confirmatory Site Survey",
+      "Post-Installation Maintenance and Support"
+    ],
+    "documentation_requirements": [
+      "Solar system registration documents"
+    ]
+  },
+  "communication_channels": {
+    "contact_methods": [
+      "Email",
+      "Phone",
+      "WhatsApp",
+      "Telegram",
+      "Facebook",
+      "Instagram",
+      "LinkedIn",
+      "Youtube"
+    ],
+    "response_time_promises": [
+      "Our team of cheerful solar elves is here to assist you!",
+      "Our sales specialists are known for their swift responses. Your inquiries will be addressed within 3 to 5 business days."
+    ],
+    "languages_supported": [
+      "English"
+    ],
+    "business_hours": "Not specified",
+    "escalation_paths": [
+      "support@getsolar.ai",
+      "hello@getsolar.ai"
+    ]
+  },
+  "company_info": {
+    "name": "GetSolar",
+    "headquartered_in": "Singapore",
+    "founding_year": 2020,
+    "short_description": "GetSolar (formerly Solar AI) is a reliable solar company in Singapore that makes it easy for property owners to install solar systems with zero upfront cost."
+  }
+}
