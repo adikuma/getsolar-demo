@@ -1,0 +1,23 @@
+{
+  "summary": "",
+  "messages": [
+    {
+      "role": "you",
+      "content": "Hi, I'm ADitya!",
+      "id": "66f1f559-773c-4b9d-88ea-5f6eaaa0ef0a",
+      "timestamp": null
+    },
+    {
+      "role": "sunny",
+      "content": "Hello Aditya! It's wonderful to meet you. I'm Sunny, GetSolar's friendly solar assistant. I'm here to help you learn about solar energy and explore how it might benefit you. Is there anything specific you'd like to know about solar power, or are you interested in seeing how solar could work for your home? I'd be happy to guide you through the process or answer any questions you might have!",
+      "id": "run--bb7cb0b7-2e9a-483d-b77b-f99732a4f5b5-0",
+      "timestamp": null
+    },
+    {
+      "role": "you",
+      "content": "what are the different solar plans at getsolar?",
+      "id": "49d344df-b87e-4aaf-88bb-9bafae923e60",
+      "timestamp": null
+    }
+  ]
+}

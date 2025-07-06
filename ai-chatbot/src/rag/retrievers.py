@@ -1,8 +1,9 @@
 from typing import List
-from langchain.retrievers import BM25Retriever, EnsembleRetriever
+from langchain.retrievers import EnsembleRetriever
+from langchain_community.retrievers import BM25Retriever
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
-from config import FAISS_K, BM25_K, ENSEMBLE_WEIGHTS
+from .config import FAISS_K, BM25_K, ENSEMBLE_WEIGHTS
 
 def create_hybrid_retriever(vector_store: FAISS, documents: List[Document]) -> EnsembleRetriever:
     # create faiss retriever for semantic search

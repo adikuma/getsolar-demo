@@ -1,12 +1,16 @@
 import os
 from dotenv import load_dotenv
+from pathlib import Path
 
 load_dotenv()
 
+HERE = Path(__file__).parent
+ROOT = HERE.parent.parent  
+
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-DATA_PATH = "../../data/scrape_result.json"
-PERSIST_DIR = "faiss_store"
+DATA_PATH = ROOT / "data" / "scrape_result.json"
+PERSIST_DIR = HERE / "faiss_store"
 
 EMBEDDING_MODEL = "text-embedding-ada-002"
 
