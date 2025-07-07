@@ -2,3 +2,4 @@ __pycache__/
 venv/
 .env
 faiss_store/
+.langgraph_api/
